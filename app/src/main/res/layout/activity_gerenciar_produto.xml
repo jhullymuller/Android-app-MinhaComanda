@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.GerenciarProduto">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nome_do_produto"
+            android:textColor="#333"
+            android:textSize="22sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/digite_o_nome_produto"
+            android:id="@+id/editNomeProduto"
+            style="@style/editText">
+        </EditText>
+
+         <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/valor_do_produto"
+        android:textColor="#333"
+        android:textSize="22sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/digite_o_valor_do_produto"
+            android:id="@+id/editValorProduto"
+            android:inputType="number"
+            style="@style/editText">
+         </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/salvar"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:id="@+id/btnSalvar"
+        android:layout_margin="5dp"
+        />
+
+    <ListView
+        android:id="@+id/listaProdutos"
+        android:layout_width="match_parent"
+        android:layout_height="344dp"
+        android:layout_margin="5dp"></ListView>
+</LinearLayout>

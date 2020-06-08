@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name" translatable="false">Minha Comanda</string>
+    <string name="limparLista">Limpar Lista</string>
+    <string name="adicionandoProduto">Adicionando Produto</string>
+    <string name="adicionarProduto">Adicionar Produto</string>
+    <string name="sucesso">Produto adicionado com sucesso</string>
+    <string name="erro">Não foi possivel adicionar o produto, verifique os campos e tente novamente</string>
+    <string name="fechando_app">Fechando App</string>
+    <string name="realmente_fechar_app">Deseja realmente fechar o APP?</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="total">Total: R$</string>
+    <string name="tituloExcluir">Excluindo produto da comanda</string>
+    <string name="perguntaExcluir">Deseja realmente excluir o produto da comanda?</string>
+    <string name="produto">Produto</string>
+    <string name="quantidade">Quantidade</string>
+    <string name="gerenciar_produto">Gerenciar Produto</string>
+    <string name="nome_do_produto">Nome do Produto</string>
+    <string name="digite_o_nome_produto">Digite o nome do Produto</string>
+    <string name="valor_do_produto">Valor do Produto</string>
+    <string name="digite_o_valor_do_produto">Digite o valor do Produto</string>
+    <string name="salvar">Salvar</string>
+</resources>

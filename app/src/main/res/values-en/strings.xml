@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minha Comanda</string>
+    <string name="limparLista">Clear List</string>
+    <string name="adicionandoProduto">Adding product</string>
+    <string name="adicionarProduto">Add product</string>
+    <string name="sucesso">Product added successfully</string>
+    <string name="erro">"It was not possible to add the product, check the fields and try again"</string>
+    <string name="fechando_app">closing app</string>
+    <string name="sim">yes</string>
+    <string name="nao">no</string>
+    <string name="realmente_fechar_app">Do you really want to close the APP?</string>
+    <string name="total">Total: R$</string>
+    <string name="tituloExcluir">Deleting command product</string>
+    <string name="perguntaExcluir">Do you really want to exclude the product from the command?</string>
+    <string name="produto">Product</string>
+    <string name="quantidade">Quantity</string>
+    <string name="gerenciar_produto">Manage Product</string>
+    <string name="nome_do_produto">Name Product</string>
+    <string name="digite_o_nome_produto">Enter product name</string>
+    <string name="valor_do_produto">"Product Value "</string>
+    <string name="digite_o_valor_do_produto">Enter Value Product</string>
+    <string name="salvar">Save</string>
+</resources>
